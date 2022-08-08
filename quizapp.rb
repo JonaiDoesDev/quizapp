@@ -20,6 +20,23 @@ puts quiz_questions.key(2)
 answer = gets.chomp
 user_answers << answer
 
+puts "Ok, third question!"
+puts quiz_questions.key(3)
+answer = gets.chomp
+user_answers << answer
+
+puts "Ok, fourth question!"
+puts quiz_questions.key(4)
+answer = gets.chomp
+user_answers << answer
+
+puts "Ok, fifth question!"
+puts quiz_questions.key(5)
+answer = gets.chomp
+user_answers << answer
+
+
+
 puts user_answers
 
 
